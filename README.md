@@ -1,10 +1,8 @@
 # ZCL_ALV_MULTI
-多ALV展示类
-*&---------------------------------------------------------------------*
-*& Report ZALV_MULTI_DEMO
-*&---------------------------------------------------------------------*
-*&
-*&---------------------------------------------------------------------*
+多ALV展示类的demo程序
+
+[多屏幕ALV类.zip](https://github.com/Limiter-hao/ZCL_ALV_MULTI/files/7683254/ALV.zip)
+
 REPORT zalv_multi_demo.
 
 PARAMETERS: p_1 TYPE c RADIOBUTTON GROUP rg1,
@@ -160,4 +158,4 @@ START-OF-SELECTION.
       ENDTRY.
 
     WHEN OTHERS.
-  ENDCASE.[多屏幕ALV类.zip](https://github.com/Limiter-hao/ZCL_ALV_MULTI/files/7683254/ALV.zip)
+  ENDCASE.
